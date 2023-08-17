@@ -1,0 +1,9 @@
+Fitter Status : Successful - Sun Jun 05 16:58:31 2022
+Quartus II 64-Bit Version : 9.1 Build 222 10/21/2009 SJ Full Version
+Revision Name : yaoping
+Top-level Entity Name : Block
+Family : MAX7000S
+Device : EPM7128SLC84-15
+Timing Models : Final
+Total macrocells : 127 / 128 ( 99 % )
+Total pins : 48 / 68 ( 71 % )

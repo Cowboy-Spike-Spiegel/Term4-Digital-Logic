@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="yaoping">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Block|fre_divide:inst1|lpm_add_sub:Add0" CBX_FILE_NAME="add_sub_8ph.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Block|t_tablets:inst3|lpm_add_sub:Add1" CBX_FILE_NAME="add_sub_3kh.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

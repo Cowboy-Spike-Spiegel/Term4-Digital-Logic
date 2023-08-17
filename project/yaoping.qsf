@@ -1,0 +1,118 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2009 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 9.1 Build 222 10/21/2009 SJ Full Version
+# Date created = 13:10:03  April 17, 2022
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		yaoping_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY MAX7000S
+set_global_assignment -name DEVICE "EPM7128SLC84-15"
+set_global_assignment -name TOP_LEVEL_ENTITY Block
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 9.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "13:10:03  APRIL 17, 2022"
+set_global_assignment -name LAST_QUARTUS_VERSION 9.1
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name OPTIMIZE_HOLD_TIMING "IO PATHS AND MINIMUM TPD PATHS"
+set_global_assignment -name FITTER_EFFORT "STANDARD FIT"
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name MISC_FILE "D:/quartus/project/yaoping.dpf"
+set_global_assignment -name MAX7000_DEVICE_IO_STANDARD TTL
+set_location_assignment PIN_73 -to clr
+set_location_assignment PIN_68 -to start
+set_location_assignment PIN_56 -to clk
+set_location_assignment PIN_79 -to bottle_h[0]
+set_location_assignment PIN_80 -to bottle_h[1]
+set_location_assignment PIN_81 -to bottle_h[2]
+set_location_assignment PIN_54 -to bottle_h[3]
+set_location_assignment PIN_74 -to bottle_l[0]
+set_location_assignment PIN_75 -to bottle_l[1]
+set_location_assignment PIN_76 -to bottle_l[2]
+set_location_assignment PIN_77 -to bottle_l[3]
+set_location_assignment PIN_69 -to mode[0]
+set_location_assignment PIN_70 -to mode[1]
+set_location_assignment PIN_63 -to tablets_h[0]
+set_location_assignment PIN_64 -to tablets_h[1]
+set_location_assignment PIN_28 -to light_green
+set_location_assignment PIN_29 -to light_red
+set_location_assignment PIN_65 -to tablets_h[2]
+set_location_assignment PIN_58 -to tablets_l[0]
+set_location_assignment PIN_60 -to tablets_l[1]
+set_location_assignment PIN_61 -to tablets_l[2]
+set_location_assignment PIN_62 -to tablets_l[3]
+set_location_assignment PIN_51 -to led1[0]
+set_global_assignment -name VHDL_FILE yaoping.vhd
+set_global_assignment -name VECTOR_WAVEFORM_FILE yaoping.vwf
+set_global_assignment -name VHDL_FILE bottle.vhd
+set_global_assignment -name VECTOR_WAVEFORM_FILE bottle.vwf
+set_global_assignment -name VHDL_FILE t_tablets.vhd
+set_global_assignment -name VHDL_FILE fre_divide.vhd
+set_global_assignment -name VECTOR_WAVEFORM_FILE fre_divide.vwf
+set_global_assignment -name VHDL_FILE led_7.vhd
+set_global_assignment -name VECTOR_WAVEFORM_FILE led_7.vwf
+set_global_assignment -name BDF_FILE Block.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE block.vwf
+set_global_assignment -name VHDL_FILE t_bottles.vhd
+set_global_assignment -name VECTOR_WAVEFORM_FILE t_bottles.vwf
+set_global_assignment -name VHDL_FILE switch.vhd
+set_global_assignment -name VECTOR_WAVEFORM_FILE switch.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE t_tablets.vwf
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE block.vwf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name MISC_FILE "D:/_Codes/Quartus/project/yaoping.dpf"
+set_location_assignment PIN_44 -to led1[6]
+set_location_assignment PIN_45 -to led1[5]
+set_location_assignment PIN_46 -to led1[4]
+set_location_assignment PIN_48 -to led1[3]
+set_location_assignment PIN_49 -to led1[2]
+set_location_assignment PIN_50 -to led1[1]
+set_location_assignment PIN_37 -to led2[6]
+set_location_assignment PIN_39 -to led2[5]
+set_location_assignment PIN_40 -to led2[4]
+set_location_assignment PIN_41 -to led2[3]
+set_location_assignment PIN_35 -to led2[2]
+set_location_assignment PIN_36 -to led2[1]
+set_location_assignment PIN_17 -to led2[0]
+set_location_assignment PIN_18 -to led3[6]
+set_location_assignment PIN_30 -to led3[5]
+set_location_assignment PIN_31 -to led3[4]
+set_location_assignment PIN_33 -to led3[3]
+set_location_assignment PIN_34 -to led3[2]
+set_location_assignment PIN_25 -to led3[1]
+set_location_assignment PIN_27 -to led3[0]
+set_location_assignment PIN_67 -to tablets_h[3]
